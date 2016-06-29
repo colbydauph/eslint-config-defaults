@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config",
+  "version": "0.1.0",
+  "description": "Shareable ESLint Configs",
+  "main": "eslint-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colbydauph/eslint-config.git"
+  },
+  "keywords": ["eslint", "config", "lint", "style"],
+  "author": "Colby Dauphinais",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/colbydauph/eslint-config/issues"
+  },
+  "homepage": "https://github.com/colbydauph/eslint-config#readme"
+}
