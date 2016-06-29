@@ -2,15 +2,14 @@
 /* ESLint Config for browser environments that include React / JSX */
 
 module.exports = {
-  extends: './node.js',
+  extends: './browser.js',
 
   env: {
-    browser: true,
-    node: false,
     'shared-node-browser': true,
   },
 
   parserOptions: {
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },

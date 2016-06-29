@@ -8,6 +8,10 @@ module.exports = {
     jest: true,
   },
 
+  parserOptions: {
+    sourceType: 'script',
+  },
+
   rules: {
     'no-console': [0],
   },
