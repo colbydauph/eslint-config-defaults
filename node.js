@@ -28,7 +28,6 @@ module.exports = {
   /* RULES */
   // http://eslint.org/docs/rules
   rules: {
-    'no-js-error': [2],
     'comma-dangle': [1, 'always-multiline'],
     'no-cond-assign': [2, 'except-parens'],
     'no-console': [1],
