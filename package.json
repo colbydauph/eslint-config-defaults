@@ -9,11 +9,19 @@
     "type": "git",
     "url": "git+https://github.com/colbydauph/eslint-config-defaults.git"
   },
-  "keywords": ["eslint", "config", "lint", "style"],
+  "keywords": [
+    "eslint",
+    "config",
+    "lint",
+    "style"
+  ],
   "author": "Colby Dauphinais",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/colbydauph/eslint-config-defaults/issues"
   },
-  "homepage": "https://github.com/colbydauph/eslint-config-defaults#readme"
+  "homepage": "https://github.com/colbydauph/eslint-config-defaults#readme",
+  "dependencies": {
+    "eslint-plugin-react": "^5.2.2"
+  }
 }

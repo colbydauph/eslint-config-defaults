@@ -146,6 +146,7 @@ module.exports = {
       min: 2,
       max: 50,
       properties: 'never',
+      // The only var names allowed to be shorter than 2 chars
       exceptions: ['i', 'id', '_', 'cb'],
     }],
     'id-match': [0],

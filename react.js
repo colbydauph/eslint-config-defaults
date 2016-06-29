@@ -4,6 +4,8 @@
 module.exports = {
   extends: './browser.js',
 
+  plugins: ['react'],
+
   env: {
     'shared-node-browser': true,
   },
