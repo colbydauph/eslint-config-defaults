@@ -2,7 +2,7 @@
 /* ESLint Config for tests in node environments */
 
 module.exports = {
-  extends: './node',
+  extends: './node.js',
 
   env: {
     mocha: true,
