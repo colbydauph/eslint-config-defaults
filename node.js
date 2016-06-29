@@ -58,7 +58,7 @@ module.exports = {
     'no-unexpected-multiline': [2],
     'accessor-pairs': [1],
     complexity: [1, 10],
-    'consistent-return': [1],
+    'consistent-return': [0],
     curly: [2, 'multi-line'],
     'dot-notation': [2],
     'dot-location': [2, 'property'],
