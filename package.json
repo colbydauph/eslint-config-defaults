@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-defaults",
   "version": "0.1.0",
   "description": "Shareable ESLint Configs",
   "main": "eslint-config.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/colbydauph/eslint-config.git"
+    "url": "git+https://github.com/colbydauph/eslint-config-defaults.git"
   },
   "keywords": ["eslint", "config", "lint", "style"],
   "author": "Colby Dauphinais",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/colbydauph/eslint-config/issues"
+    "url": "https://github.com/colbydauph/eslint-config-defaults/issues"
   },
-  "homepage": "https://github.com/colbydauph/eslint-config#readme"
+  "homepage": "https://github.com/colbydauph/eslint-config-defaults#readme"
 }

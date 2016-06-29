@@ -1,2 +1,2 @@
-# eslint-config
+# eslint-config-defaults
 Shareable ESLint Configs
