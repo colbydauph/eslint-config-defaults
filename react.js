@@ -2,7 +2,7 @@
 /* ESLint Config for browser environments that include React / JSX */
 
 module.exports = {
-  extends: '../node',
+  extends: './node',
 
   env: {
     browser: true,

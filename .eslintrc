@@ -1,1 +1,1 @@
-extends: ./configs/node.js
+extends: ./node.js
