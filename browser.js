@@ -1,5 +1,5 @@
 'use strict';
-/* ESLint Config for browser environments that include React / JSX */
+/* ESLint Config for browser environments */
 
 module.exports = {
   extends: './node.js',
