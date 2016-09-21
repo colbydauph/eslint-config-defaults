@@ -117,7 +117,7 @@ module.exports = {
     'no-shadow': [0],
     'no-undef-init': [1],
     'no-undef': [2],
-    'no-undefined': [1],
+    'no-undefined': [0],
     'no-unused-vars': [1, { args: 'none' }],
     'no-use-before-define': [2, 'nofunc'],
     'callback-return': [2, ['callback', 'cb', 'next', 'done']],
