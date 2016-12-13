@@ -27,7 +27,7 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
     'react/display-name': [0],
     'react/forbid-prop-types': [2, { forbid: ['any', 'array', 'object'] }],
-    'react/no-comment-textnodes': [2],
+    'react/jsx-no-comment-textnodes': [2],
     'react/no-danger': [2],
     'react/no-deprecated': [2],
     'react/no-did-mount-set-state': [2],
@@ -49,7 +49,7 @@ module.exports = {
     'react/self-closing-comp': [2],
     'react/sort-comp': [2],
     'react/sort-prop-types': [2, { ignoreCase: true }],
-    'react/wrap-multilines': [2],
+    'react/jsx-wrap-multilines': [2],
     // JSX-specific rules
     'react/jsx-boolean-value': [2, 'always'],
     // TODO: Figure out which config makes sense here
