@@ -16,6 +16,11 @@ module.exports = {
       jsx: true,
     },
   },
+  
+  globals: {
+    // TODO: Shouldn't module support take care of this?
+    module: false,
+  },
 
   rules: {
     // React plugin rules

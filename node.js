@@ -171,7 +171,7 @@ module.exports = {
     'new-cap': [2, {
       newIsCap: true,
       capIsNew: true,
-      capIsNewExceptions: [],
+      capIsNewExceptions: ['Error', 'TypeError'],
     }],
     'new-parens': [2],
     'no-array-constructor': [2],
