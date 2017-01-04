@@ -23,6 +23,8 @@ module.exports = {
   },
 
   rules: {
+    'new-cap': [0],
+    
     // React plugin rules
     // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
     'react/display-name': [0],
