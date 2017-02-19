@@ -10,6 +10,7 @@ module.exports = {
 
   rules: {
     'no-console': [0],
+    'max-statements': [1, 50],
   },
 
 };
