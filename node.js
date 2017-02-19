@@ -170,8 +170,8 @@ module.exports = {
     'max-nested-callbacks': [2, 5],
     'new-cap': [2, {
       newIsCap: true,
-      capIsNew: true,
-      capIsNewExceptions: ['Error', 'TypeError'],
+      capIsNew: false,
+      capIsNewExceptions: ['Error', 'TypeError', 'RangeError'],
     }],
     'new-parens': [2],
     'no-array-constructor': [2],
