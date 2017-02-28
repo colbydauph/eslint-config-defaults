@@ -46,7 +46,7 @@ module.exports = {
     'no-unmodified-loop-condition': [1],
     'newline-per-chained-call': [1, { ignoreChainWithDepth: 2 }],
     'lines-around-directive': [0],
-    'arrow-body-style': [1, 'as-needed'],
+    'arrow-body-style': [0],
     'comma-dangle': [1, 'always-multiline'],
     'no-cond-assign': [2, 'except-parens'],
     'no-confusing-arrow': [2, { allowParens: false }],
