@@ -146,7 +146,9 @@ module.exports = {
     'no-undefined': [0],
     'no-unused-vars': [1, { args: 'none' }],
     'no-use-before-define': [2, 'nofunc'],
-    'callback-return': [2, ['callback', 'cb', 'next', 'done']],
+    // this rule currently has too many limitations
+    // see: http://eslint.org/docs/rules/callback-return
+    'callback-return': [0, ['callback', 'cb', 'next', 'done']],
     'handle-callback-err': [2, 'err'],
     'no-mixed-requires': [1, true],
     'no-new-require': [2],
