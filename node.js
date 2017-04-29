@@ -49,7 +49,7 @@ module.exports = {
     'arrow-body-style': [0],
     'comma-dangle': [1, 'always-multiline'],
     'no-cond-assign': [2, 'except-parens'],
-    'no-confusing-arrow': [2, { allowParens: false }],
+    'no-confusing-arrow': [2, { allowParens: true }],
     'no-console': [1],
     'no-constant-condition': [2],
     'no-control-regex': [2],
