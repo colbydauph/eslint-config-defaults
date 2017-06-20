@@ -236,7 +236,11 @@ module.exports = {
       overrides: {},
     }],
     'space-before-blocks': [2, 'always'],
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': [2, {
+      anonymous: 'never',
+      named: 'never',
+      asyncArrow: 'always',
+    }],
     'space-in-parens': [1, 'never'],
     'space-infix-ops': [2, { int32Hint: true }],
     'space-unary-ops': [2, {
