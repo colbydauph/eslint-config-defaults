@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-defaults",
-  "version": "0.1.0",
-  "description": "Shareable ESLint Configs",
+  "version": "0.1.1",
+  "description": "Reusable ESLint Configs",
   "scripts": {
     "init": "rm -rf ./node_modules; npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/colbydauph/eslint-config-defaults#readme",
   "dependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "~3.15.0",
-    "eslint-plugin-react": "~6.10.0"
+    "babel-eslint": "~7.2.3",
+    "eslint": "~4.0.0",
+    "eslint-plugin-react": "~7.1.0"
   }
 }

@@ -173,7 +173,7 @@ module.exports = {
       max: 50,
       properties: 'never',
       // The only var names allowed to be shorter than 2 chars
-      exceptions: ['i', 'id', '_', 'cb'],
+      exceptions: ['i', 'id', '_', 'cb', 'R'],
     }],
     'id-match': [0],
     indent: [2, 2, {
