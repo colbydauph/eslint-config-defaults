@@ -79,7 +79,11 @@ module.exports = {
     'react/jsx-no-undef': [2],
     'react/jsx-pascal-case': [2],
     'react/jsx-sort-props': [0],
-    'react/jsx-space-before-closing': [2, 'always'],
+    'react/jsx-tag-spacing': [2, {
+      closingSlash: 'never',
+      beforeSelfClosing: 'always',
+      afterOpening: 'never',
+    }],
     'react/jsx-uses-react': [2],
     'react/jsx-uses-vars': [2],
   },
