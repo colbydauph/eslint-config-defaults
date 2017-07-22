@@ -1,0 +1,17 @@
+# Spec for CircleCI test running
+# https://circleci.com/docs/1.0/configuration
+machine:
+  # Set the timezone
+  timezone:
+    Etc/UTC
+
+  # Version of node to use
+  node:
+    version:
+      8.1
+
+# Customize test commands
+test:
+  override:
+    - npm run lint
+    - npm run cover
