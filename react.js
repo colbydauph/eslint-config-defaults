@@ -42,7 +42,7 @@ module.exports = {
     'react/no-string-refs': [1],
     'react/no-unknown-property': [2],
     'react/prefer-es6-class': [2, 'always'],
-    'react/prefer-stateless-function': [2],
+    'react/prefer-stateless-function': [2, { ignorePureComponents: true }],
     'react/prop-types': [2],
     'react/react-in-jsx-scope': [2],
     'react/require-extension': [0],
