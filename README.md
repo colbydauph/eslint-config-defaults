@@ -3,7 +3,7 @@ Opinionated ESLint Configs
 
 #### 1. Install
 ```shell
-$ npm install --save-dev colbydauph/eslint-config-defaults
+$ npm install --save-dev github:colbydauph/eslint-config-defaults
 ```
 
 #### 2. Extend
