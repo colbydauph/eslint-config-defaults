@@ -5,6 +5,7 @@ module.exports = {
   extends: './react.js',
 
   env: {
+    mocha: true,
     jest: true,
   },
 
