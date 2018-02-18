@@ -3,13 +3,12 @@ Opinionated ESLint Configs
 
 #### 1. Install
 ```shell
-$ npm install --save-dev github:colbydauph/eslint-config-defaults
+$ npm i -D github:colbydauph/eslint-config-defaults#1.1.0
 ```
 
 #### 2. Extend
 ```yaml
-# .eslintrc
-# https://eslint.org/docs/user-guide/configuring
+# .eslintrc.yml
 extends: defaults/node
 ```
 
@@ -19,6 +18,7 @@ extends: defaults/node
 |---|---|---|
 | `browser` | `defaults/node` | `browser` |
 | `node` | `eslint:recommended` |  practical settings for [`node@latest`](https://hub.docker.com/_/node) |
+| `node-cli` | `defaults/node` |  | 
 | `node-test` | `defaults/node` | `mocha` | 
 | `react` | `defaults/browser` | `react`, `jsx` |
 | `react-test` | `defaults/react` | `mocha`, `jest` |
