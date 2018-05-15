@@ -1,5 +1,6 @@
-# eslint-config-defaults
 Opinionated ESLint Configs
+
+Focuses on being strict, and idiomatic.
 
 #### 1. Install
 ```shell

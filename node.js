@@ -183,7 +183,7 @@ module.exports = {
         const: 3,
       },
     }],
-    'key-spacing': [0],
+    'key-spacing': [2],
     'lines-around-comment': [0, {
       beforeBlockComment: true,
       afterBlockComment: false,
