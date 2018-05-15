@@ -58,7 +58,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
     // 'react/jsx-closing-bracket-location': [],
     'react/jsx-curly-spacing': [2, 'always', {
-      when: 'always',
       children: true,
       allowMultiline: true,
       spacing: { objectLiterals: 'never' },
