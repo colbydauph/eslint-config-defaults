@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-defaults",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "engines": {
     "node": ">= 8.1",
     "npm": ">= 5.1"
@@ -8,10 +8,11 @@
   "description": "Opinionated ESLint Configs",
   "scripts": {
     "cover": "nyc --check-coverage npm test -- --reporter=progress",
-    "init": "rm -rf ./node_modules; npm install",
+    "init": "rm -rf ./node_modules && npm install",
+    "init:hard": "rm -f package-lock.json && npm run init",
     "test": "mocha --reporter=list $(find . ! -path '*node_modules*' -name '*.test.js')",
     "lint": "eslint $(find . ! -path '*node_modules*' -type f | egrep '[.]js$')",
-    "verify": "npm run init && npm run lint && npm run cover"
+    "verify": "npm run lint && npm run cover"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,7 @@
   },
   "devDependencies": {
     "chai": "~4.1.2",
-    "mocha": "~4.0.1",
+    "mocha": "~5.2.0",
     "nyc": "~11.2.1"
   }
 }

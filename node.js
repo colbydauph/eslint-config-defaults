@@ -159,6 +159,7 @@ module.exports = {
     'array-bracket-spacing': [2, 'never'],
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs'],
+    // todo: allow node_modules
     camelcase: [2, { properties: 'always' }],
     'comma-spacing': [2, { before: false, after: true }],
     'comma-style': [2, 'last'],
@@ -166,6 +167,7 @@ module.exports = {
     'consistent-this': [2, 'self'],
     'eol-last': [2],
     'func-call-spacing': [2, 'never'],
+    // https://github.com/eslint/eslint/issues/9511
     'func-names': [1],
     'func-style': [0],
     'id-length': [1, {
@@ -173,10 +175,11 @@ module.exports = {
       max: 50,
       properties: 'never',
       // The only var names allowed to be shorter than 2 chars
-      exceptions: ['i', 'id', '_', 'cb', 'R'],
+      exceptions: ['i', 'n', 'id', '_', 'cb', 'R'],
     }],
     'id-match': [0],
     indent: [2, 2, {
+      SwitchCase: 1,
       VariableDeclarator: {
         var: 2,
         let: 2,

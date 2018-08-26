@@ -4,7 +4,7 @@ Focuses on being strict, and idiomatic.
 
 #### 1. Install
 ```shell
-$ npm i -D github:colbydauph/eslint-config-defaults#1.1.0
+$ npm i -D github:colbydauph/eslint-config-defaults#1.2.0
 ```
 
 #### 2. Extend
