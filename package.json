@@ -12,7 +12,7 @@
     "init:hard": "rm -f package-lock.json && npm run init",
     "test": "mocha --reporter=list $(find . ! -path '*node_modules*' -name '*.test.js')",
     "lint": "eslint $(find . ! -path '*node_modules*' -type f | egrep '[.]js$')",
-    "verify": "npm run init && npm run lint && npm run cover"
+    "verify": "npm run lint && npm run cover"
   },
   "repository": {
     "type": "git",
