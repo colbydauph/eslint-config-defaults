@@ -144,7 +144,11 @@ module.exports = {
     'no-undef-init': [1],
     'no-undef': [2],
     'no-undefined': [0],
-    'no-unused-vars': [1, { args: 'none' }],
+    // https://eslint.org/docs/rules/no-unused-vars
+    'no-unused-vars': [1, {
+      args: 'none',
+      varsIgnorePattern: '_',
+    }],
     'no-use-before-define': [2, 'nofunc'],
     // this rule currently has too many limitations
     // see: http://eslint.org/docs/rules/callback-return
@@ -175,7 +179,7 @@ module.exports = {
       max: 50,
       properties: 'never',
       // The only var names allowed to be shorter than 2 chars
-      exceptions: ['i', 'n', 'id', '_', 'cb', 'R'],
+      exceptions: ['i', 'id', '_', 'cb', 'R', 'x', 'f', 'n'],
     }],
     'id-match': [0],
     indent: [2, 2, {
